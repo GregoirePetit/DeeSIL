@@ -16,6 +16,8 @@ then train the first state model using:
 
 ```python code/scratch.py configs/scratch_ilsvrc_s10.cf```
 
+(I put a trained model in the `models/` folder in order to facilitate the results reproductions)
+
 ## extract all the features
 edit `configs/features_extraction_ilsvrc_s10.cf` to set your storing paths (e.g. `path_to_model_dir` and the `root_path` (that will be used then to store the `features/`, `svms/` and `predictions/` folder))
 then extract the required features using:
