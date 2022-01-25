@@ -1,6 +1,15 @@
 # DeeSIL
 new code version of DeeSIL
 
+## set up your env 
+using conda, install the required packages (of `package-list.txt`)
+
+```conda create -n deesil --file package-list.txt```
+
+and add `utils/` to your env path
+```conda develop path_to_utils/```
+
+
 ## train the first state
 edit `configs/scratch_ilsvrc_s10.cf` to set your storing paths (e.g. `path_to_model_dir`)
 then train the first state model using:
