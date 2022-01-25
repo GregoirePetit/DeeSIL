@@ -48,3 +48,21 @@ run the following commands, it will compute the predictions files of DeeSIL stor
 run the following commands, it will evaluate DeeSIL accordingly to the predictions files of DeeSIL computed at the previous step (replace `root_path` accordingly to the previous steps)
 
 ```python codes/eval_deesil.py ilsvrc s10 root_path```
+
+### Results:
+You should get for ILSVRC s10:
+```
+batch 1, top1 = 0.840, top5 = 0.949
+batch 2, top1 = 0.654, top5 = 0.885
+batch 3, top1 = 0.564, top5 = 0.844
+batch 4, top1 = 0.501, top5 = 0.793
+batch 5, top1 = 0.457, top5 = 0.755
+batch 6, top1 = 0.427, top5 = 0.728
+batch 7, top1 = 0.405, top5 = 0.705
+batch 8, top1 = 0.380, top5 = 0.682
+batch 9, top1 = 0.366, top5 = 0.666
+batch 10, top1 = 0.351, top5 = 0.648
+=================================================
+===================  TOTAL  =====================
+top1 = 0.456, top5 = 0.745
+```
