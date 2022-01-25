@@ -1,0 +1,14 @@
+[features_extraction.py]
+num_workers = 12
+batch_size = 64
+gpu = 0
+normalization_dataset_name = ilsvrc
+P = 100
+S = 10
+datasets_mean_std_file_path = images_list_files/datasets_mean_std.txt
+first_batch_model_load_path = path_to_model_dir/ilsvrc/s10/ilsvrc_s10.pt
+images_list_dir = images_list_files/ilsvrc/
+destination_dir = root_path/features/ilsvrc/s10
+#######
+first_class=0
+last_class=999
