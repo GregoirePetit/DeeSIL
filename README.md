@@ -1,5 +1,5 @@
 # DeeSIL
-new code version of DeeSIL
+new code version of [DeeSIL](https://openaccess.thecvf.com/content_eccv_2018_workshops/w8/html/Belouadah_DeeSIL_Deep-Shallow_Incremental_Learning._ECCVW_2018_paper.html). Unofficial but reproduces the results.
 
 ## set up your env 
 using conda, install the required packages (of `package-list.txt`)
